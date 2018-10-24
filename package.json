@@ -1,0 +1,25 @@
+{
+  "name": "bio-beta",
+  "version": "2.0.0",
+  "description": "A bot for RAC Discord Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xy-gen/bio-beta.git"
+  },
+  "author": "0xy-gen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xy-gen/bio-beta/issues"
+  },
+  "homepage": "https://github.com/0xy-gen/bio-beta#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "sqlite": "^3.0.0"
+  }
+}
