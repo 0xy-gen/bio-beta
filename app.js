@@ -12,7 +12,7 @@ process.on('unhandledRejection', err => {
     console.error('Uncaught Promise Error: \n' + err.stack);
 });
 
-const client = new Commando.client({
+const client = new Commando.CommandoClient({
     commandoPrefix: cfg.prefix,
     owner: cfg.ownerID,
     disableEveryone: true,
