@@ -1,4 +1,4 @@
-const { CommandoClient, SQLiteProvider } = require('discord.js-commando');
+const { Commando, SQLiteProvider } = require('discord.js-commando');
 const sqlite = require('sqlite');
 const path = require('path');
 const cfg = require('./cfg.json');
