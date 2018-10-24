@@ -39,7 +39,7 @@ client.registry
         console.log('Logged in!');
         remind.checkReminders(client);
         client.user.setPresence({game: {name: games[Math.floor(Math.random() * (games.length))]}, status: 'idle'})
-            .then(console.log('Presence set!');
+            .then(console.log('Presence set!'));
     });
 
 /*
